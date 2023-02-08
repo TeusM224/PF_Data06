@@ -53,7 +53,7 @@ Here there is the diagram.
  + Github
  + Discord
  
- ## **Team Members and their Roles **
+ ## **Team Members and their Roles**
 
  + Camilo Vargas - Data Engineer
  + Mateo Murillo - Data Engineer
