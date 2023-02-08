@@ -9,11 +9,11 @@
 
 <hr>  
 
-## **Introduccion.**
+## **Introduction.**
 
-***Contexto.***
-
-"Google posee una plataforma de reseñas de todo tipo de negocios, restaurantes, hoteles, servicios, entre otros. Los usuarios utilizan el servicio y luego suben su reseña según la experiencia vivida. Muchos usuarios leen las reseñas de los lugares a los que planean ir para tomar decisiones sobre dónde comprar, comer, dormir, reunirse, etc. Esta información es muy valiosa para las empresas, ya que les sirve para enterarse de la imagen que tienen los usuarios de los distintos locales de la empresa, siendo muy útil para medir el desempeño, utilidad del local, además de identificar los aspectos del servicio a mejorar"
+There are platforms such as google reviews, incorporated into google maps, so that people can give their opinions about businesses in multiple areas. Today these tools are of vital importance for companies, which are able to gather information about their customers' perspective to improve performance, analyze local utilities, find faults, and carry out other studies that allow made important decisions for the business.
+In this project, based on data obtained from google maps, we seek to develop solutions for a conglomerate of restaurant companies and related businesses. The solutions will be oriented both to facilitate a better analysis of the reviews, and of growing business areas, as well as to the creation of  tools for make recommendations for users, and for advice on the creation of new stores taking into account the tourist market.
+To put these objectives into practice, multiple technological tools will be used for data storage, acces and management, as well as for the creation of graphs and other analysis tools.
 
 ## **Problemática - Necesidad**
 
