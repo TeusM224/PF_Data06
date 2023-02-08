@@ -21,9 +21,9 @@ To put these objectives into practice, multiple technological tools will be used
 
 A conglomerate of restaurants and companies in the United States wants to take advantage of the information collected by Google Maps on customer ratings and reviews to improve its business plan. for this purpose, the conglomerate requests that solutions be provided to the next points: obtain a detailed analysis of the available reviews of businesses related to tourism and gastronomy, which will allow them to improve their premises to obtain better public acceptance. It is also requested to predict which are the lines of business in which there will be an increase in demand, as well as in which sectors it would be convenient to create new stores. Finally, a tool is also requested that offers a recommendation service to users, introducing them to new restaurants.
 
-## Objetivos
+## Objectives
 
-- Offer a tool capable of showing the number of restaurants in the area surrounding a given hotel, including their classification in the reviews. This will allow us to identify if this area has the potential for the creation of a new restaurant, taking advantage of the lack of well-qualified restaurants in the area, or if otherwise there would be too much competition to start a new location in the area, in order to advise on the establishment of new restaurants that benefit from tourism.
+- Offer a tool capable of showing the number of restaurants in the surrounding area of a given hotel, including their classification in the reviews. This will allow us to identify if this area has the potential for the creation of a new restaurant, taking advantage of the lack of well-qualified restaurants in the area, or if otherwise there would be too much competition to start a new location in the area, in order to advise on the establishment of new restaurants that benefit from tourism.
 
 - Create a tool (dashboard) for displaying the customer reviews, allowing filtering by type of business, with appropriate indicators to appreciate the level of acceptance of the business. This with the objective of presenting a detailed analysis of the opinion of users in Google Maps about hotels, restaurants and other businesses related to tourism and leisure.
 
