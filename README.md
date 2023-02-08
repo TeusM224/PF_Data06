@@ -29,9 +29,13 @@
 
 - Desarrollar una herramienta, como sistema de recomendación, para otorgar al usuario la posibilidad de conocer más opciones de acuerdo a su historial (experiencias previas).
 
+## Alcance
+
+- Este proyecto tiene como enfoque el mercado de turismo, centrado en las areas de gastronomia, entretenimiento y desarrollo cultural. De acuerdo a Share America, ThoughtCo y Vivaturist, paginas de noticias, blogs y turismo. Desde el 2019 los principales Estados y ciudades en Estados Unidos son: New York (New York, Broklyn), Florida (Orlando, Miami) y finalmente California ( Los Angeles, San Francisco). Aparte de ello Arizona, Nevada(Las Vegas), Washigton, Masachusets(Boston), Texas(Houston), Kansas(Missuri)
+
 ## **Stack tecnológico**
 
- + Python (Numpy, Pandas, Matplotlib, Seaborn)
+ + Python (Numpy, Pandas, Matplotlib, Spicy, Selenium, BeatifulSoup4, Seaborn)
  + Machine Learning (Scikit learn)
  + MySQL 
  + Power BI
@@ -45,6 +49,8 @@
 
  + Camilo Vargas - Data Engineer
  + Mateo Murillo - Data Engineer
- + Oscar Sánchez - Data Engineer
- + Facundo Arce - Machine Learning Engineer
+ + Oscar Sánchez - Data Scientist
+ + Facundo Arce - Data Scientist
  + Diego Morales - Data Analyst
+ 
+ 
