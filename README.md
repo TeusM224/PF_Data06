@@ -1,6 +1,9 @@
 ![logo](https://user-images.githubusercontent.com/111402986/217397701-72c8bc6a-b79b-48bf-b615-4c2bff7de155.png)
 
-# <h1 align=center> **PROYECTO FINAL GRUPAL** </h1>
+![prueba](https://user-images.githubusercontent.com/111402986/217420310-e20764ca-cd4a-4e91-8faa-3aea13e916a8.png)
+
+# <h1 align = center> ***Google Maps REVIEWS AND RECOMMENDATIONS***</h1>
+# <h2 align=center> **PROYECTO FINAL GRUPAL** </h2>
 
 # <h2 align=center>***Diego Morales Ostos - Mateo Murillo - Camilo Vargas -</p> Facundo Arce - Oscar Díaz*** </h2>
 
