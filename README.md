@@ -19,17 +19,17 @@ To put these objectives into practice, multiple technological tools will be used
 
 ## **Problem Statement**
 
-A conglomerate of restaurants and companies in the United States wants to take advantage of the information collected by Google Maps on customer ratings and reviews to improve its business plan. for this purpose, the conglomerate requests that solutions be provided to the next points: obtain a detailed analysis of the available reviews of businesses related to tourism and gastronomy, which will allow them to improve their premises to obtain better public acceptance. It is also requested to predict which are the business lines in which there will be an increase in demand, as well as in which sectors it would be convenient to create new stores. Finally, a tool is also requested that offers a recommendation service to users, introducing them to new restaurants.
+A conglomerate of restaurants and companies in the United States wants to take advantage of the information collected by Google Maps on customer ratings and reviews to improve its business plan. for this purpose, the conglomerate requests that solutions be provided to the next points: obtain a detailed analysis of the available reviews of businesses related to tourism and gastronomy, which will allow them to improve their premises to obtain better public acceptance. It is also requested to predict which are the lines of business in which there will be an increase in demand, as well as in which sectors it would be convenient to create new stores. Finally, a tool is also requested that offers a recommendation service to users, introducing them to new restaurants.
 
 ## Objetivos
 
-- Ofrecer una herramienta capaz de mostrar el número de restaurantes en el entorno de un determinado hotel, incluyendo su clasificación en las reseñas, con el fin de asesorar en el establecimiento de nuevos restaurantes que se beneficien del turismo. Esto permitirá identificar si esta zona tiene potencial para la creación de un nuevo restaurante, aprovechando la falta de restaurantes bien calificados en la zona, o si, por el contrario, habría demasiada competencia como para iniciar un nuevo local en el lugar.
+- Offer a tool capable of showing the number of restaurants in the area surrounding a given hotel, including their classification in the reviews. This will allow us to identify if this area has the potential for the creation of a new restaurant, taking advantage of the lack of well-qualified restaurants in the area, or if otherwise there would be too much competition to start a new location in the area, in order to advise on the establishment of new restaurants that benefit from tourism.
 
-- Crear una herramienta (tablero), para la visualización de la opinión de los usuarios, permitiendo filtrar por tipo de negocio, con indicadores adecuados que permitan apreciar el nivel de aceptación del negocio. Esto con el objetivo de presentar un análisis detallado de la opinión de los usuarios en Google Maps sobre hoteles, restaurantes y otros negocios afines al turismo y ocio.
+- Create a tool (dashboard) for displaying the customer reviews, allowing filtering by type of business, with appropriate indicators to appreciate the level of acceptance of the business. This with the objective of presenting a detailed analysis of the opinion of users in Google Maps about hotels, restaurants and other businesses related to tourism and leisure.
 
-- Crear de una herramienta que permita predecir (a través de un análisis de sentimientos), si un negocio perteneciente a cierto rubro y de acuerdo a sus características y las del ambiente, presentará o no, un crecimiento. Con el objetivo de conocer cuáles rubros de los negocios crecerán o decaerán.
+- Create a tool that allows predicting whether or not a business will show growth, according to its characteristics and those of the environment. In order to know which lines of business will grow or decline.
 
-- Desarrollar una herramienta, como sistema de recomendación, para otorgar al usuario la posibilidad de conocer más opciones de acuerdo a su historial (experiencias previas).
+- Develop a tool, such as a recommendation system, to give the user the possibility of knowing more restaurants options according to their history (previous experiences).
 
 ## Alcance
 
