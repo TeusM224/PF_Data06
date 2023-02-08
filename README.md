@@ -15,7 +15,7 @@ There are platforms such as google reviews, that is incorporated into google map
 
 In this project, based on data obtained from google maps, we seek to develop solutions for a conglomerate of restaurant companies and related businesses in the United States. The solutions will be oriented both to facilitate a better analysis of the reviews, and of growing business areas, as well as to the creation of  tools for make recommendations for users, and for advice on the creation of new stores taking into account the tourist market.
 
-To put these objectives into practice, multiple technological tools will be used for data storage, acces and management, as well as for the creation of graphs and other analysis tools.
+To put these objectives into practice, multiple technological tools will be used for storage, acces and management of data, as well as for the creation of graphs and other analysis tools.
 
 ## **Problemática - Necesidad**
 
