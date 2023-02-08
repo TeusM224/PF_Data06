@@ -17,9 +17,9 @@ In this project, based on data obtained from google maps, we seek to develop sol
 
 To put these objectives into practice, multiple technological tools will be used for storage, acces and management of data, as well as for the creation of graphs and other analysis tools.
 
-## **Problemática - Necesidad**
+## **Problem Statement**
 
-"Como parte de una consultora de data, te han contratado para poder realizar un análisis del mercado estadounidense. El cliente es parte de un conglomerado de empresas de restaurantes y afines. Desean tener un análisis detallado de la opinión de los usuarios en Google Maps sobre hoteles, restaurantes y otros negocios afines al turismo y ocio. A partir del uso de análisis de sentimientos, predecir cuáles serán los rubros de los negocios que más crecerán (o decaerán). Además, desean saber dónde es conveniente establecer los nuevos locales de restaurantes y afines. Asimismo, desean poder tener un sistema de recomendación de restaurantes para los usuarios de Google para darle al usuario la posibilidad de poder conocer nuevos sabores a partir de sus experiencias previas. Nota: Pueden cambiar el tipo de comercio objetivo (no es necesario que sean restaurantes). "
+A conglomerate of restaurants and companies in the United States wants to take advantage of the information collected by Google Maps on customer ratings and reviews to improve its business plan. for this purpose, the conglomerate requests that solutions be provided to the following questions: obtain a detailed analysis of the available reviews of businesses related to tourism and gastronomy, which will allow them to improve their premises to obtain better public acceptance. It is also requested to predict which are the business lines in which there will be an increase in demand, as well as in which sectors it would be convenient to create new stores. Finally, a tool is also requested that offers a recommendation service to users, introducing them to new restaurants.
 
 ## Objetivos
 
