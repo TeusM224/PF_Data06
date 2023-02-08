@@ -13,7 +13,7 @@
 
 There are platforms such as google reviews, that is incorporated into google maps, where people can give their opinions about businesses in multiple areas. Today these tools are of vital importance for companies, which are able to gather information about their customers perspective to improve performance, analyze local utilities, find faults, and carry out other studies that allow made important decisions for the business.
 
-In this project, based on data obtained from google maps, we seek to develop solutions for a conglomerate of restaurant companies and related businesses. The solutions will be oriented both to facilitate a better analysis of the reviews, and of growing business areas, as well as to the creation of  tools for make recommendations for users, and for advice on the creation of new stores taking into account the tourist market.
+In this project, based on data obtained from google maps, we seek to develop solutions for a conglomerate of restaurant companies and related businesses in the United States. The solutions will be oriented both to facilitate a better analysis of the reviews, and of growing business areas, as well as to the creation of  tools for make recommendations for users, and for advice on the creation of new stores taking into account the tourist market.
 
 To put these objectives into practice, multiple technological tools will be used for data storage, acces and management, as well as for the creation of graphs and other analysis tools.
 
