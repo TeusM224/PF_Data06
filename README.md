@@ -9,7 +9,7 @@
 
 <hr>  
 
-## **Introduction.**
+## **Introduction**
 
 There are platforms such as google reviews, that is incorporated into google maps, where people can give their opinions about businesses in multiple areas. Today these tools are of vital importance for companies, which are able to gather information about their customers perspective to improve performance, analyze local utilities, find faults, and carry out other studies that allow made important decisions for the business.
 
@@ -19,7 +19,7 @@ To put these objectives into practice, multiple technological tools will be used
 
 ## **Problem Statement**
 
-A conglomerate of restaurants and companies in the United States wants to take advantage of the information collected by Google Maps on customer ratings and reviews to improve its business plan. for this purpose, the conglomerate requests that solutions be provided to the following questions: obtain a detailed analysis of the available reviews of businesses related to tourism and gastronomy, which will allow them to improve their premises to obtain better public acceptance. It is also requested to predict which are the business lines in which there will be an increase in demand, as well as in which sectors it would be convenient to create new stores. Finally, a tool is also requested that offers a recommendation service to users, introducing them to new restaurants.
+A conglomerate of restaurants and companies in the United States wants to take advantage of the information collected by Google Maps on customer ratings and reviews to improve its business plan. for this purpose, the conglomerate requests that solutions be provided to the next points: obtain a detailed analysis of the available reviews of businesses related to tourism and gastronomy, which will allow them to improve their premises to obtain better public acceptance. It is also requested to predict which are the business lines in which there will be an increase in demand, as well as in which sectors it would be convenient to create new stores. Finally, a tool is also requested that offers a recommendation service to users, introducing them to new restaurants.
 
 ## Objetivos
 
