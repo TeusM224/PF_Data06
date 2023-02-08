@@ -33,7 +33,17 @@
 
 - Este proyecto tiene como enfoque el mercado de turismo, centrado en las areas de gastronomia, entretenimiento y desarrollo cultural. De acuerdo a Share America, ThoughtCo y Vivaturist, paginas de noticias, blogs y turismo. Desde el 2019 los principales Estados y ciudades en Estados Unidos son: New York (New York, Broklyn), Florida (Orlando, Miami) y finalmente California ( Los Angeles, San Francisco). Aparte de ello Arizona, Nevada(Las Vegas), Washigton, Masachusets(Boston), Texas(Houston), Kansas(Missuri)
 
-## **Stack tecnológico**
+## **Work Methodology** 
+
+As a group we decided to go with the SCRUM work method for a better organization in the activities to do. It is designed to break the whole work into individuals goals completed in a short period of time, these periods are also called 'SPRINTS'. Everyday we would gather in daily meetings that would help us asking our mentor about certain doubts we might have about the assignment.
+In our case, these Sprints will have a one week duration each with a presentation of a demo to the Product Owner at the end of every week on fridays.
+
+For further organization we decided to create a Trello Organization Dashboard that would separate the task that we have to do with the ones that were already finished; and we also created a Gantt Diagram that shows the weekly division with the project's SPRINTS full cicle. It is expected for all the participants to use the diagram in order to complete the project's task in the rigth order and avoid losing time.
+Here there is the diagram.
+
+<p align=center><img src="https://github.com/TeusM224/PF_Data06/blob/main/Assets/gantt_chart.png"  height=300>
+
+## **Technologyc stack**
 
  + Python (Numpy, Pandas, Matplotlib, Spicy, Selenium, BeatifulSoup4, Seaborn)
  + Machine Learning (Scikit learn)
@@ -43,9 +53,7 @@
  + Github
  + Discord
  
- ## **Equipo de trabajo**
-
-***Roles y responsabilidades.***
+ ## **Team Members and their Roles **
 
  + Camilo Vargas - Data Engineer
  + Mateo Murillo - Data Engineer
