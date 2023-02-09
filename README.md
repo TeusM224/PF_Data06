@@ -45,7 +45,7 @@ Here there is the diagram.
 
 <p align=center><img src="https://github.com/TeusM224/PF_Data06/blob/main/Assets/gantt_chart.png"  height=300>
 
-## **Technologyc stack**
+## **Technology stack**
 
  + Python (Numpy, Pandas, Matplotlib, Spicy, Selenium, BeatifulSoup4, Seaborn)
  + Machine Learning (Scikit learn)
