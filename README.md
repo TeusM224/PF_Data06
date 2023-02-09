@@ -23,7 +23,7 @@ A conglomerate of restaurants and companies in the United States wants to take a
 
 ## Objectives
 
-- Offer a tool capable of showing the number of restaurants in the surrounding area of a given hotel, including their classification in the reviews. This will allow us to identify if this area has the potential for the creation of a new restaurant, taking advantage of the lack of well-qualified restaurants in the area, or if otherwise there would be too much competition to start a new location in the area, in order to advise on the establishment of new restaurants that benefit from tourism.
+- Offer a tool capable of showing the number of restaurants in the surrounding area of a given hotel, including their classification in the reviews. This will allow us to identify if this area has the potential for the creation of a new restaurant, taking advantage of the lack of well-qualified restaurants in the area, or if otherwise there would be too much competition to start a new local in the area, in order to advise on the establishment of new restaurants that benefit from tourism.
 
 - Create a tool (dashboard) for displaying the customer reviews, allowing filtering by type of business, with appropriate indicators to appreciate the level of acceptance of the business. This with the objective of presenting a detailed analysis of the opinion of users in Google Maps about hotels, restaurants and other businesses related to tourism and leisure.
 
