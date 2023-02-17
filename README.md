@@ -36,7 +36,7 @@ A conglomerate of restaurants and companies in the United States wants to take a
 
 - In order to do that We'r going to stablish the following KPI's and Objetives:
 
-![image](https://user-images.githubusercontent.com/111402986/218114450-e636e367-152c-4607-a4aa-d0345eec6aca.png)
+<p align=center><img src ="Assets/kpis.png" height=500>
 
 
 
