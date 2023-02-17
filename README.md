@@ -48,7 +48,7 @@ In our case, these Sprints will have a one week duration each with a presentatio
 - For further organization we decided to create a Trello Organization Dashboard that would separate the tasks that we have to do with the ones that are already finished; and we also created a Gantt Diagram that shows the weekly division with the project's SPRINTS full cycle. It is expected for all the participants to use the diagram in order to complete the project's tasks in the rigth order and avoid losing time.
 Here there is the diagram.
 
-<p align=center><img src="https://github.com/TeusM224/PF_Data06/blob/main/Assets/gantt_chart.png"  height=300>
+<p align=center><img src="https://github.com/TeusM224/PF_Data06/blob/main/Assets/Placker_gantt.png"  height=300>
 
 ## **Technology stack**
 
