@@ -12,9 +12,7 @@ def timeDay (bigList: list, day: str) :
 
 def tableHours (df) :
 
-    df['ID_hours'] = np.arange(df.shape[0])
-
-    df_hours = df[['ID_meta', 'hours']]
+    df_hours = df[['gmap_id', 'hours']]
     
     df_hours['ID_hours'] = np.arange(df_hours.shape[0])
     
