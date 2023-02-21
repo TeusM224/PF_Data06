@@ -4,8 +4,6 @@ import warnings
 warnings.filterwarnings(action='ignore')
 
 def statesETL (df_review, id_list) :
-    #data = [['tom', 10], ['nick', 15], ['juli', 14], ['jake', 34]]
-    #df_review = pd.DataFrame(data, columns=['Name', 'Age'])
 
     #se eliminan las columnas innecesarias
     delete = ['name', 'pics', 'resp']
