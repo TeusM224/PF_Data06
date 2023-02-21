@@ -38,8 +38,9 @@ for folder in folders :#se recorren las carpetas
         df['state'] = folder.replace('review-', '')#se agrega una columna con el estado
 
         #se guarda
-        file = file.replace('.json', '.csv')
-        path_save = f'Data/transformed_data/reviews/{folder}/{file}'
-        df.to_csv(path_save, sep=';', index=False, header=True, mode='w', escapechar='\\')
+        if len(df.index) != 0 :
+            file_out = file.replace('.json', '.csv')
+            path_save = f'Data/transformed_data/reviews/{folder}/{file_out}'
+            df.to_csv(path_save, sep=';', index=False, header=True, mode='w', escapechar='\\')
 
         print(f'/{folder}/{file} DONE')
