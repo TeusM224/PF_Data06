@@ -56,6 +56,7 @@ print(n_rows)
 i = 0 #en caso de error inicializar desde donde se quiere volver a empezar
 f = i+1000
 b = True
+path_save = '/content/drive/MyDrive/geopy/meta9.csv'#aca la ruta donde se guarda el nuevo archivo
 while b :
   if f > n_rows :
     f = n_rows
@@ -67,9 +68,7 @@ while b :
   sub_df['country'] = sub_df['state_country'].apply(lambda s: s.split('|')[1])
   sub_df.drop(['state_country'], axis=1, inplace=True)
 
-  
-  path_save = '/content/drive/MyDrive/geopy/meta9.csv'#aca la ruta donde se guarda el nuevo archivo
-  sub_df.to_csv('/content/drive/MyDrive/geopy/geopy9.csv', sep=';', index = False, mode='a', header= False)
+  sub_df.to_csv(path_save, sep=';', index = False, mode='a', header= False)
   print('finish i: '+str(i)+'  f: '+str(f))
   i += 1000
   f += 1000
