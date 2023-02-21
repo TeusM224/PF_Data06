@@ -5,12 +5,11 @@ from random import uniform, randint
 import pandas as pd
 from geopy.exc import GeocoderTimedOut
 
-location_df = pd.read_csv('/content/drive/MyDrive/geopy/meta9.csv', usecols=['gmap_id','address','latitude','longitude'], sep=';')
+path_load = '/content/drive/MyDrive/geopy/meta9.csv'#aca la ruta donde esta el archivo a leer
+location_df = pd.read_csv(path_load, usecols=['gmap_id','address','latitude','longitude'], sep=';')
 
 location_df['coordenadas'] = location_df['latitude'].astype(str) + ' , ' + location_df['longitude'].astype(str)
 
-
-#Tabla Auxiliar
 
 location_df = location_df[['gmap_id','address','coordenadas']]
 location_df.rename(columns={'address':'direccion'}, inplace = True)
@@ -29,7 +28,7 @@ geolocator = Nominatim(user_agent="meta 11")
 reverse = RateLimiter(geolocator.reverse)
 
 def getting_state(coord):
-  #coord = f"{row['latitude']}, {row['longitude']}"
+
   
 
   try:
@@ -54,7 +53,7 @@ def getting_state(coord):
 
 n_rows = len(location_df.index)
 print(n_rows)
-i = 23000 #en caso de error inicializar desde donde se quiere volver a empezar
+i = 0 #en caso de error inicializar desde donde se quiere volver a empezar
 f = i+1000
 b = True
 while b :
@@ -62,12 +61,14 @@ while b :
     f = n_rows
     b= False
   sub_df = location_df.iloc[i:f].copy()
-#Ejemplo para probar
-	#Primeros 1000 y luego para 10000
+
   sub_df['state_country'] = sub_df['coordenadas'].apply(lambda coord: getting_state(coord))
   sub_df['state'] = sub_df['state_country'].apply(lambda s: s.split('|')[0])
   sub_df['country'] = sub_df['state_country'].apply(lambda s: s.split('|')[1])
   sub_df.drop(['state_country'], axis=1, inplace=True)
+
+  
+  path_save = '/content/drive/MyDrive/geopy/meta9.csv'#aca la ruta donde se guarda el nuevo archivo
   sub_df.to_csv('/content/drive/MyDrive/geopy/geopy9.csv', sep=';', index = False, mode='a', header= False)
   print('finish i: '+str(i)+'  f: '+str(f))
   i += 1000
