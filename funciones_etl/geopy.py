@@ -15,9 +15,7 @@ location_df = location_df[['gmap_id','address','coordenadas']]
 location_df.rename(columns={'address':'direccion'}, inplace = True)
 
 
-
 #Funcion Geopy con Nominatium
-
 
 #geolocator = Nominatim(user_agent="probandogeo")
 #geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
@@ -29,27 +27,31 @@ reverse = RateLimiter(geolocator.reverse)
 
 def getting_state(coord):
 
-  
-
   try:
     sleep(uniform(0.0005,0.0015))
     location = reverse(coord, exactly_one=True, language='en')
     address = location.raw['address']
 
     state_country = address.get('state', '')+'|'+address.get('county', '')
+    
     return state_country
 
   except GeocoderTimedOut:
+    
     print('time out in coor: '+str(coord))
     sleep(randint(11, 20))
     location = reverse(coord, exactly_one=True, language='en')
     address = location.raw['address']
 
     state_country = address.get('state', '')+'|'+address.get('county', '')
+    
     return state_country
+  
   except KeyError:
+    
     return '<Na>|<Na>'
 
+#Ejecución del programa y la función
 
 n_rows = len(location_df.index)
 print(n_rows)
