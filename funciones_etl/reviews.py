@@ -12,6 +12,14 @@ def statesETL (df_review, id_list) :
     #se filtran las reviews de los locales de interes
     df_review = df_review[df_review['gmap_id'].isin(id_list)].copy()
 
+    #remplazo ';' y saltos de linea
+    df_review['text'] = df_review['text'].str.replace(';', '.')
+    df_review['text'] = df_review['text'].str.replace("\n", " ")
+    df_review['text'] = df_review['text'].str.replace("\r", " ")
+
+    #strip
+    df_review['text'] = df_review['text'].str.strip()
+
     #se eliminan dulicados
     df_review.drop_duplicates(inplace=True)
 
