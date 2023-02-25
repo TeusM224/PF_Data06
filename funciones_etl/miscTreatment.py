@@ -13,7 +13,7 @@ def misc_table (un_df):
     for c in columnas :
         dfMISC[c] = dfMISC.get(c, '<Na>')
         
-    dfMISC.loc[:, columnas]
+    dfMISC = dfMISC.loc[:, columnas]
     
     dfMISC = dfMISC.replace('\n', '', regex=True)
     dfMISC = dfMISC.replace('\r', '', regex=True)
