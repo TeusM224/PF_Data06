@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+import pydeck as pdk
+
 from closeCompetition import CloseCompetition
 
 #se carga la lista de negocios
@@ -24,7 +26,6 @@ def get_businesses (id_business: int) :
     #se extrae la latitud y longitud, y se eliminan del df
     latitude = df_business.iloc[0]['latitude']
     longitude = df_business.iloc[0]['longitude']
-    df_business.drop(columns= ['latitude', 'longitude'], inplace= True)
 
     #se obtiene el df de los demas negocios dentro del area
     df_competition = CloseCompetition.get_competition(latitude, longitude, 3)
@@ -112,12 +113,15 @@ with info_competition :
     st.write(f':violet[Total reviews:] {comp_reviews}')
     st.write(f':violet[Competition density per sq. km:] :{comp_colorDens}[{comp_density}]')
 
+    if len(df_filter.index) >28 :
+        st.write('*Some businesses may be omitted from the next two charts because there are too many in the selected area')
+
 
 #se crea la grafica con el rating de la competencia
 with chart_rating :
-
+    
     fig, ax = plt.subplots()
-    hbars = ax.barh(df_filter['name'], df_filter['avg_rating'], align='center', color = '#66C0C0')
+    hbars = ax.barh(df_filter['name'].head(28), df_filter['avg_rating'].head(28), align='center', color = '#66C0C0')
 
     ax.set_title('Average Reviews', color='w')
     ax.axvline(x = 4, color = 'tab:orange', ls='--')
@@ -136,7 +140,7 @@ with chart_rating :
 #se crea la grafica con la cantidad de reviews de la cometencia
 with chart_reviews :
     fig, ax = plt.subplots()
-    hbars = ax.barh(df_filter['name'], df_filter['num_of_reviews'], align='center', color = '#ACCEC0')
+    hbars = ax.barh(df_filter['name'].head(28), df_filter['num_of_reviews'].head(28), align='center', color = '#ACCEC0')
 
     ax.set_title('Num of Reviews', color='w')
     ax.spines['top'].set_visible(False)
@@ -153,7 +157,7 @@ with chart_reviews :
 
 #se muestra un mapa con la ubicacion de la competencia
 with map_competition :
-    st.map(df_competition)
+    st.map(df_filter)
 
-    
+
 
