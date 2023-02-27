@@ -67,33 +67,33 @@ Here there is the diagram.
 In order to prepare the data according to the needs established in the project, the following transformations were performed.
 
 ### 7.1 Metadata-sitios
-#### 7.1.2 Filter by category
+#### - Filter by category
 Since the project is focused on businesses in the hotel and gastronomy sectors, a filter was performed using the 'category' column in the metadata table, to obtain the businesses corresponding to these sectors. To facilitate the requests, a new column 'isHotel' was also added to indicate which of the two sectors each business belongs to.
 
-#### 7.1.3 Hours transformation
+#### - Hours transformation
 It was decided to transform the metadata hours column into a separate table whose columns are the days of the week, and contain the business opening hours, since several businesses have the same hours, this table maintains a one-to-many relationship. with the metadata table, both tables sharing a column 'id_hours'
 
-#### 7.1.4 Misc transformation
+#### - Misc transformation
 Similar to the treatment given to hours, the misc column was also used to generate a new normalized table, with the features and services offered by each business.
 
-#### 7.1.5 Location table
+#### - Location table
 the latitude and longitude columns in the metadata table were used to obtain the address, county, and state of each business. This information is saved in a new table called 'location'
 
-#### 7.1.6 Dropped columns
+#### - Dropped columns
 Considering that they do not provide relevant information for the objectives of the project, it was decided to eliminate the columns 'price', 'state', 'relative_results' and 'url'
 
 ### 7.2 Reviews-estados
 
-#### 7.2.1 Filter rows
+#### - Filter rows
 Having already filtered the metadata table to keep only the hotel and gastronomy businesses, the 'gmap_id' list of the chosen businesses was used to filter the reviews corresponding to them.
 
-#### 7.2.2 Time transformation
+#### - Time transformation
 since the time column was encoded in Unix time format, it was transformed and saved in a date format.
 
-#### 7.2.3 State column
+#### - State column
 As that initially the data from reviews was segmented into several folders according to the state to which they belong, a new 'state' column was added to be able to keep this information once the data was united in a single table
 
-#### 7.2.4 Dropped columns
+#### - Dropped columns
 Considering that they do not provide relevant information for the objectives of the project, it was decided to eliminate the columns 'name', 'pics', 'resp'
 
 ### 7.3 Enhanced Entity-Relationship (EER) diagram
