@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-import pydeck as pdk
-
 from closeCompetition import CloseCompetition
 
 #se carga la lista de negocios
