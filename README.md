@@ -9,7 +9,7 @@
 
 <hr>  
 
-## **Introduction**
+## 1. Introduction
 
 There are platforms such as google reviews, that is incorporated into google maps, where people can give their opinions about businesses in multiple areas. Today these tools are of vital importance for companies, which are able to gather information about their customers perspective to improve performance, analyze local utilities, find faults, and carry out other studies that allow made important decisions for the business.
 
@@ -17,11 +17,11 @@ In this project, based on data obtained from google maps, we seek to develop sol
 
 To put these objectives into practice, multiple technological tools will be used for storage, acces and management of data, as well as for the creation of graphs and other analysis tools.
 
-## **Problem Statement**
+## 2. Problem Statement
 
 A conglomerate of restaurants and companies in the United States wants to take advantage of the information collected by Google Maps on customer ratings and reviews to improve its business plan. for this purpose, the conglomerate requests that solutions be provided to the next points: obtain a detailed analysis of the available reviews of businesses related to tourism and gastronomy, which will allow them to improve their premises to obtain better public acceptance. It is also requested to predict which are the lines of business in which there will be an increase in demand, as well as in which sectors it would be convenient to create new stores. Finally, a tool is also requested that offers a recommendation service to users, introducing them to new restaurants.
 
-## Objectives
+## 3. Objectives
 
 - Detailed analysis of the opinion of users in Google Maps on businesses related to tourism and leisure.
 
@@ -31,7 +31,7 @@ A conglomerate of restaurants and companies in the United States wants to take a
 
 - Develop a tool, such as a recommendation system, to give the user the possibility of knowing more restaurants options according to their history (previous experiences).
 
-## Approaches
+## 4. Approaches
 - This project will be focused on the turism market based on the gastronomy, entertaiment and cultural experiences. According to 'Share America', 'ThoughtCo' and 'Vivaturist'; turism's blogs and websites, since 2019 the principal turistic states and cities in the United States are: New York State(New York City-Brooklyn),Florida(Orlando-Miami) and California(Los Angeles - San Francisco). On the side we can also find Arizona, Nevada(Las Vegas), Washignton DC, Masachusets(Boston), Texas(Houston) and Kansas City (Misuri). According to the aforementioned, We are going to focus on the states and counties with the objective of having information groups with better aggregates of places that can accomplish the exposed conditions for those.
 
 - In order to do that We'r going to stablish the following KPI's and Objetives:
@@ -40,7 +40,7 @@ A conglomerate of restaurants and companies in the United States wants to take a
 
 
 
-## **Work Methodology** 
+## 5. Work Methodology
 
 - As a group we decided to go with the SCRUM work method for a better organization in the activities to do. It is designed to break the whole work into individuals time periods with their own goal, also called 'SPRINTS'. Everyday we would gather in daily meetings that would help us asking our mentor about certain doubts we might have about the assignment.
 In our case, these Sprints will have a one week duration each with a presentation of a demo to the Product Owner at the end of every week on fridays.
@@ -50,7 +50,7 @@ Here there is the diagram.
 
 <p align=center><img src="https://github.com/TeusM224/PF_Data06/blob/main/Assets/Placker_gantt.png"  height=300>
 
-## **Technology stack**
+## 6. Technology stack
 
  + Python (Numpy, Pandas, Matplotlib, Spicy, Selenium, BeatifulSoup4, Seaborn)
  + Machine Learning (Scikit learn)
@@ -62,7 +62,46 @@ Here there is the diagram.
  + Trello
  + Discord
  
- ## **Team Members and their Roles**
+ 
+ ## 7. ETL
+In order to prepare the data according to the needs established in the project, the following transformations were performed.
+
+### 7.1 Metadata-sitios
+#### 7.1.2 Filter by category
+Since the project is focused on businesses in the hotel and gastronomy sectors, a filter was performed using the 'category' column in the metadata table, to obtain the businesses corresponding to these sectors. To facilitate the requests, a new column 'isHotel' was also added to indicate which of the two sectors each business belongs to.
+
+#### 7.1.3 Hours transformation
+It was decided to transform the metadata hours column into a separate table whose columns are the days of the week, and contain the business opening hours, since several businesses have the same hours, this table maintains a one-to-many relationship. with the metadata table, both tables sharing a column 'id_hours'
+
+#### 7.1.4 Misc transformation
+Similar to the treatment given to hours, the misc column was also used to generate a new normalized table, with the features and services offered by each business.
+
+#### 7.1.5 Location table
+the latitude and longitude columns in the metadata table were used to obtain the address, county, and state of each business. This information is saved in a new table called 'location'
+
+#### 7.1.6 Dropped columns
+Considering that they do not provide relevant information for the objectives of the project, it was decided to eliminate the columns 'price', 'state', 'relative_results' and 'url'
+
+### 7.2 Reviews-estados
+
+#### 7.2.1 Filter rows
+Having already filtered the metadata table to keep only the hotel and gastronomy businesses, the 'gmap_id' list of the chosen businesses was used to filter the reviews corresponding to them.
+
+#### 7.2.2 Time transformation
+since the time column was encoded in Unix time format, it was transformed and saved in a date format.
+
+#### 7.2.3 State column
+As that initially the data from reviews was segmented into several folders according to the state to which they belong, a new 'state' column was added to be able to keep this information once the data was united in a single table
+
+#### 7.2.4 Dropped columns
+Considering that they do not provide relevant information for the objectives of the project, it was decided to eliminate the columns 'name', 'pics', 'resp'
+
+### 7.3 Enhanced Entity-Relationship (EER) diagram
+Below is an EER diagram where you can see the final tables that were obtained after the transformation, including their relationships and columns, as well as the data type of the latter.
+
+<p align=center><img src="https://github.com/TeusM224/PF_Data06/blob/main/Assets/eer.png">
+
+ ## Team Members and their Roles
 
  + Camilo Vargas - Data Engineer
  + Mateo Murillo - Data Engineer
