@@ -54,7 +54,7 @@ Here there is the diagram.
 
  + Python (Numpy, Pandas, Matplotlib, Spicy, Selenium, BeatifulSoup4, Seaborn)
  + Machine Learning (Scikit learn)
- + MySQL 
+ + BigQuery 
  + Streamlit
  + Power BI
  + Google Cloud Platform
