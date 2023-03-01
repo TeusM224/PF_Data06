@@ -61,6 +61,8 @@ Here there is the diagram.
  + Github
  + Trello
  + Discord
+ + Apache AirFlow
+ + Apache Spark (PySpark)
  
  
  ## 7. ETL
