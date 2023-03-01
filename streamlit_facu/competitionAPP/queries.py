@@ -5,7 +5,7 @@ import pandas as pd
 #modulos creados por mi
 #from competitionAPP.bg_key import credentials
 
-path = "/streamlit_facu/competitionAPP/bg_key/southern-ivy-378521-58bc704ea77d.json"
+path = "competitionAPP/bg_key/southern-ivy-378521-58bc704ea77d.json"
 #bqclient = bigquery.Client.from_service_account_json(path)
 
 
