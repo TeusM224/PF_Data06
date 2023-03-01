@@ -1,0 +1,8 @@
+pandas
+geopy
+matplotlib
+streamlit
+google-cloud
+google-cloud-bigquery
+pandas-gbq
+
