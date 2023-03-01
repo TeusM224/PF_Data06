@@ -23,13 +23,13 @@ A conglomerate of restaurants and companies in the United States wants to take a
 
 ## 3. Objectives
 
-- Detailed analysis of the opinion of users in Google Maps on businesses related to tourism and leisure.
+- Define which states have the worst ratings with the least number of reviews between 2018 and 2021. 4.3 or less will be considered an unsatisfactory rating.
 
-- Sentiment analysis, to predict which will be the business items that will grow (or decline) the most.
+- Create a recommendation system that recommends restaurants through ratings, which will improve decision-making in which type of restaurants are more likely to be successful and in which places
 
 - Create a tool that allows predicting whether or not a business will show growth, according to its characteristics and those of the environment. In order to know which lines of business will grow or decline.
 
-- Develop a tool, such as a recommendation system, to give the user the possibility of knowing more restaurants options according to their history (previous experiences).
+- Improve the decision-making creating a tool which we can analyze the competition nearby a selected business
 
 ## 4. Approaches
 This project will be focused on the turism market based on the gastronomy, entertaiment and cultural experiences. According to 'Share America', 'ThoughtCo' and 'Vivaturist'; turism's blogs and websites, since 2019 the principal turistic states and cities in the United States are: New York State(New York City-Brooklyn),Florida(Orlando-Miami) and California(Los Angeles - San Francisco). On the side we can also find Arizona, Nevada(Las Vegas), Washignton DC, Masachusets(Boston), Texas(Houston) and Kansas City (Misuri). According to the aforementioned, We are going to focus on the states and counties with the objective of having information groups with better aggregates of places that can accomplish the exposed conditions for those.
