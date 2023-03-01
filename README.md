@@ -104,9 +104,7 @@ The BigQuery service provided by Google Cloud was chosen to set up the data ware
 The transformed data was uploaded and stored in google storage, to be later imported into bigquery, where a dataset called maps_reviews had previously been created. For the creation of the tables, the automatic detection of the schema offered by bigquery itself was used, and it worked without presenting major problems.
  
 
- ## 8. Machine Learning Model
- 
- ### Model Elaboration
+
  
 
  ## Team Members and their Roles
