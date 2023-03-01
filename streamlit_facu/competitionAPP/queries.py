@@ -3,10 +3,9 @@ from google.cloud import bigquery
 import pandas as pd
 
 #modulos creados por mi
-#from competitionAPP.bg_key import credentials
+from competitionAPP.bg_key import credentials
 
 #path = "competitionAPP/bg_key/southern-ivy-378521-58bc704ea77d.json"
-url = 'https://raw.githubusercontent.com/TeusM224/key_json_queries/main/southern-ivy-378521-58bc704ea77d.json?token=GHSAT0AAAAAAB5WXNHXOSF4IC63XOEBZRC4Y77MRWA'
 #bqclient = bigquery.Client.from_service_account_json(path)
 
 
@@ -19,7 +18,7 @@ class Queries :
             WHERE id_meta = {id_business}
         '''
         #se crea el cliente
-        bqclient = bigquery.Client.from_service_account_json(url)
+        bqclient = bigquery.Client.from_service_account_json(credentials.path_to_service_account_key_file)
 
         #se ejecuta la query y se guarda en un dataframe
         df = bqclient.query(query).to_dataframe()
@@ -46,7 +45,7 @@ class Queries :
             AND longitude  BETWEEN {longitude_min} AND {longitude_max}
         '''
         #se crea el cliente
-        bqclient = bigquery.Client.from_service_account_json(url)
+        bqclient = bigquery.Client.from_service_account_json(credentials.path_to_service_account_key_file)
 
         #se ejecuta la query y se guarda en un dataframe
         df = bqclient.query(query).to_dataframe()
@@ -66,7 +65,7 @@ class Queries :
         where {is_not} is_hotel
         '''     
         #se crea el cliente
-        bqclient = bigquery.Client.from_service_account_json(url)
+        bqclient = bigquery.Client.from_service_account_json(credentials.path_to_service_account_key_file)
         
         #se ejecuta la query y se guarda en un dataframe
         df = bqclient.query(query).to_dataframe()
