@@ -32,13 +32,7 @@ A conglomerate of restaurants and companies in the United States wants to take a
 - Develop a tool, such as a recommendation system, to give the user the possibility of knowing more restaurants options according to their history (previous experiences).
 
 ## 4. Approaches
-- This project will be focused on the turism market based on the gastronomy, entertaiment and cultural experiences. According to 'Share America', 'ThoughtCo' and 'Vivaturist'; turism's blogs and websites, since 2019 the principal turistic states and cities in the United States are: New York State(New York City-Brooklyn),Florida(Orlando-Miami) and California(Los Angeles - San Francisco). On the side we can also find Arizona, Nevada(Las Vegas), Washignton DC, Masachusets(Boston), Texas(Houston) and Kansas City (Misuri). According to the aforementioned, We are going to focus on the states and counties with the objective of having information groups with better aggregates of places that can accomplish the exposed conditions for those.
-
-- In order to do that We'r going to stablish the following KPI's and Objetives:
-
-<p align=center><img src ="Assets/kpis.png" height=500>
-
-
+This project will be focused on the turism market based on the gastronomy, entertaiment and cultural experiences. According to 'Share America', 'ThoughtCo' and 'Vivaturist'; turism's blogs and websites, since 2019 the principal turistic states and cities in the United States are: New York State(New York City-Brooklyn),Florida(Orlando-Miami) and California(Los Angeles - San Francisco). On the side we can also find Arizona, Nevada(Las Vegas), Washignton DC, Masachusets(Boston), Texas(Houston) and Kansas City (Misuri). According to the aforementioned, We are going to focus on the states and counties with the objective of having information groups with better aggregates of places that can accomplish the exposed conditions for those.
 
 ## 5. Work Methodology
 
