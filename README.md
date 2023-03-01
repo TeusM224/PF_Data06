@@ -108,6 +108,12 @@ Below is an EER diagram where you can see the final tables that were obtained af
 ### 7.3 Data Loading in Data warehouse
 The BigQuery service provided by Google Cloud was chosen to set up the data warehouse. Bigquery is compatible with the SQL language, and is designed to query large volumes of data, at high speed, a very important factor for this project where millions of data distributed in multiple tables are handled, which need to be consulted frequently during the process of development of APIs and maching learning models.
 The transformed data was uploaded and stored in google storage, to be later imported into bigquery, where a dataset called maps_reviews had previously been created. For the creation of the tables, the automatic detection of the schema offered by bigquery itself was used, and it worked without presenting major problems.
+ 
+
+ ## 8. Machine Learning Model
+ 
+ ### Model Elaboration
+ 
 
  ## Team Members and their Roles
 
