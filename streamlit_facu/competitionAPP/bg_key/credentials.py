@@ -6,5 +6,5 @@
 #                                                'bigquery_key'
 #                                                'southern-ivy-378521-e9a71fa22eca.json')
 
-path_to_service_account_key_file = 'competitionAPP\bg_key\southern-ivy-378521-e9a71fa22eca.json'
+path_to_service_account_key_file = 'competitionAPP/bg_key/southern-ivy-378521-e9a71fa22eca.json'
 
